@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogheader.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="bottom.css">
+    <script src="blog.js"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="head">
+
+    
+    
+        <div class="left">
+        <ul class="ul">
+            <a class="ulb"onclick="redirectToPage10()" >Home</a>
+            <a class="ulb" href="#bottom">About</a>
+            <a class="ulb" href="#bottom">Contact</a>
+            </ul>
+        </div>
+        <div class="middle">
+            <p class="name"> Sizzle</p>
+        </div>
+        <div class="right">
+            <div class="search-container">
+            
+            
+                <form action="/search" method="get">
+                  <input type="text" placeholder="Search..." name="search">
+                  <input type="submit" value="&#10148;">
+                </form>
+              </div>
+        </div>
+    </header>
+    <div class="matter">
+       
+       <h1><br><br>
+        Here's a simple recipe for homemade chocolate ice cream:</h1> 
+       <br>
+       <h2 class="bottomleftheading">Ingredients:</h2>
+       
+      <div class="Ingredients">
+        <div class="Ingredients1">
+            <li>2 cups heavy cream</li>
+             <li>1 cup whole milk</li>
+             <li>3/4 cup granulated sugar</li>
+             <li>1/2 cup unsweetened cocoa powder</li>
+             <li>1 teaspoon vanilla extract</li>
+             <li>Pinch of salt</li>
+             <LI>Optional: chocolate chips, chopped nuts, or chocolate syrup for toppings</LI>
+             
+            </div>
+        
+       
+      </div>
+       
+       
+      
+            <h2 class="bottomleftheading">Instructions:</h2>
+                 <li CLASS="bottomleftmatter">In a mixing bowl, whisk together the cocoa powder, sugar, and salt until well combined.</li>
+                 <li CLASS="bottomleftmatter">In a separate bowl, combine the heavy cream, milk, and vanilla extract. Slowly add this mixture to the cocoa powder mixture, whisking continuously until smooth and well combined.</li>
+                 <li CLASS="bottomleftmatter">Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions until it reaches a soft-serve consistency.</li>
+                 <li CLASS="bottomleftmatter">If desired, stir in any additional toppings like chocolate chips or chopped nuts during the last few minutes of churning.</li>
+                 <li CLASS="bottomleftmatter">Transfer the ice cream to a freezer-safe container and freeze for at least 4 hours or until firm. </li>
+                 <li CLASS="bottomleftmatter">Once frozen, scoop the chocolate ice cream into bowls or cones and serve with your favorite toppings such as chocolate syrup or whipped cream. </li>
+                
+                 <br>
+                 <h2 class="bottomleftheading">Enjoy your delicious homemade chocolate ice cream!</h2>
+    </div>
+
+
+
+
+    <div class="bottom" id="bottom">
+        <div class="bottomleft">
+         <H2 > Hello there! I'm <SPAN CLASS="bottomleftheading">SAITEJA</SPAN>, and I'm absolutely thrilled to welcome you to my cooking blog.<BR><BR></H2>
+  
+             <P CLASS="bottomleftmatter"> My culinary journey began watching my grandmother cook, igniting a passion for experimenting with
+                 flavors and techniques. Through my blog, I share not just recipes, but stories, memories, and tips gathered along my culinary
+                  adventures. From quick weeknight dinners to gourmet creations, it's a celebration of the joy cooking brings. Join me in 
+                  exploring new flavors, connecting over meals, and finding solace in the kitchen. Whether you're a seasoned chef or a kitchen 
+                  novice, there's something here for everyone. Let's dive into the wonderful world of cooking together!</P>
+        </div>
+        <div class="bottomright">
+         <h2 class="bottomleftheading">Feedback</h2>
+         <form action="submit_feedback.php" method="post">
+          <label for="name" class="namesfeedback">Name:</label>
+          <input type="texts" id="name" name="name" required>
+      
+          <label for="email"class="namesfeedback" >Email:</label>
+          <input type="email" id="email" name="email" class="email" required>
+      
+          <label for="message"class="namesfeedback">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+      
+          <input type="submits" value="Submit">
+      </form>
+        </div>
+        
+      </div>
+      <div class="bottomlast">
+          <h1 class="follow">Follow us on...</h1>
+      </div>
+</body>
+</html>

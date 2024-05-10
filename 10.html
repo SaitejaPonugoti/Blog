@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogheader.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="bottom.css">
+    <script src="blog.js"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="head">
+
+    
+    
+        <div class="left">
+        <ul class="ul">
+            <a class="ulb"onclick="redirectToPage10()" >Home</a>
+            <a class="ulb" href="#bottom">About</a>
+            <a class="ulb" href="#bottom">Contact</a>
+            </ul>
+        </div>
+        <div class="middle">
+            <p class="name"> Sizzle</p>
+        </div>
+        <div class="right">
+            <div class="search-container">
+            
+            
+                <form action="/search" method="get">
+                  <input type="text" placeholder="Search..." name="search">
+                  <input type="submit" value="&#10148;">
+                </form>
+              </div>
+        </div>
+    </header>
+    <div class="matter">
+       
+       <h1><br><br>Here's a recipe for a delicious Chicken biryani:</h1> 
+       <br>
+       <h2 class="bottomleftheading">Ingredients:</h2>
+       
+      <div class="Ingredients">
+        <div class="Ingredients1"><h2 class="bottomleftheading"> the Chicken marinade:</h2>
+            <li>500g Chicken, cut into pieces</li>
+             <li>1 cup yogurt</li>
+             <li>2 tablespoons ginger-garlic paste</li>
+             <li>1 teaspoon red chili powder</li>
+             <li>1 teaspoon turmeric powder</li>
+             <li>1 teaspoon garam masala</li>
+             <LI>Salt to taste</LI>
+             <li>Juice of 1 lemon</li>
+            </div>
+        <div class="Ingredients2"> <h2 class="bottomleftheading">For the rice:</h2> 
+     
+            <li>2 cups basmati rice, soaked for 30 minutes</li>
+            <li>4-5 cups water</li>
+            <li>1 bay leaf</li>
+            <li>2-3 green cardamom pods</li>
+            <li>2-3 cloves</li>
+            <li>1-inch cinnamon stick</li>
+            <li>Salt to taste</li></div>
+        <div class="Ingredients3"><h2 class="bottomleftheading">  For assembling:</h2>
+            <li>2 onions, thinly sliced</li>
+            <li>1/2 cup chopped mint leaves</li>
+            <li>1/2 cup chopped coriander leaves</li>
+            <li>1/4 cup fried onions (optional)</li>
+            <li>Saffron strands soaked in warm milk</li>
+            <li>Ghee or oil for cooking</li></div>
+      </div>
+       
+       
+      
+            <h2 class="bottomleftheading">Instructions:</h2>
+           
+            <li CLASS="bottomleftmatter">Marinate the Chicken pieces with yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala, salt,
+                 and lemon juice. Allow it to marinate for at least 2 hours or overnight in the refrigerator for best results.</li>
+                 <li CLASS="bottomleftmatter">Heat ghee or oil in a heavy-bottomed pan. Add the thinly sliced onions and fry until golden brown. Remove half of the fried onions and set them aside for garnishing.</li>
+                 <li CLASS="bottomleftmatter">In the same pan, add the marinated Chicken along with the marinade. Cook on medium heat until the Chicken is tender and the masala is thick. This might take around 30-40 minutes. Keep stirring occasionally to prevent burning.</li>
+                 <li CLASS="bottomleftmatter">While the Chicken is cooking, prepare the rice. In a large pot, bring water to a boil. Add the soaked basmati rice, bay leaf, cardamom pods, cloves, cinnamon stick, and salt. Cook until the rice is 70-80% cooked. Drain the rice and set aside.</li>
+                 <li CLASS="bottomleftmatter">Once the Chicken is cooked, layer the rice over it evenly. Sprinkle chopped mint leaves, coriander leaves, and fried onions on top of the rice. Drizzle saffron-infused milk over the rice for a beautiful aroma and color.
+                </li>
+                 <li CLASS="bottomleftmatter">Cover the pot with a tight-fitting lid. Cook on low heat for 15-20 minutes or until the rice is completely cooked and fluffy.</li>
+                 <li CLASS="bottomleftmatter">Once done, gently fluff up the biryani with a fork. Serve hot with raita, salad, and your favorite pickle.</li>
+               
+                 <br>
+                 <h2>Enjoy your flavorful Chicken biryani!</h2>
+    </div>
+
+
+
+
+    <div class="bottom" id="bottom">
+        <div class="bottomleft">
+         <H2 > Hello there! I'm <SPAN CLASS="bottomleftheading">SAITEJA</SPAN>, and I'm absolutely thrilled to welcome you to my cooking blog.<BR><BR></H2>
+  
+             <P CLASS="bottomleftmatter"> My culinary journey began watching my grandmother cook, igniting a passion for experimenting with
+                 flavors and techniques. Through my blog, I share not just recipes, but stories, memories, and tips gathered along my culinary
+                  adventures. From quick weeknight dinners to gourmet creations, it's a celebration of the joy cooking brings. Join me in 
+                  exploring new flavors, connecting over meals, and finding solace in the kitchen. Whether you're a seasoned chef or a kitchen 
+                  novice, there's something here for everyone. Let's dive into the wonderful world of cooking together!</P>
+        </div>
+        <div class="bottomright">
+         <h2 class="bottomleftheading">Feedback</h2>
+         <form action="submit_feedback.php" method="post">
+          <label for="name" class="namesfeedback">Name:</label>
+          <input type="texts" id="name" name="name" required>
+      
+          <label for="email"class="namesfeedback" >Email:</label>
+          <input type="email" id="email" name="email" class="email" required>
+      
+          <label for="message"class="namesfeedback">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+      
+          <input type="submits" value="Submit">
+      </form>
+        </div>
+        
+      </div>
+      <div class="bottomlast">
+          <h1 class="follow">Follow us on...</h1>
+      </div>
+</body>
+</html>

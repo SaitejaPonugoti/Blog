@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogheader.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="bottom.css">
+    <script src="blog.js"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="head">
+
+    
+    
+        <div class="left">
+        <ul class="ul">
+            <a class="ulb"onclick="redirectToPage10()" >Home</a>
+            <a class="ulb" href="#bottom">About</a>
+            <a class="ulb" href="#bottom">Contact</a>
+            </ul>
+        </div>
+        <div class="middle">
+            <p class="name"> Sizzle</p>
+        </div>
+        <div class="right">
+            <div class="search-container">
+            
+            
+                <form action="/search" method="get">
+                  <input type="text" placeholder="Search..." name="search">
+                  <input type="submit" value="&#10148;">
+                </form>
+              </div>
+        </div>
+    </header>
+    <div class="matter">
+       
+       <h1><br><br>
+        Here's a simple recipe for making Maggi noodles:</h1>
+       <h2 class="bottomleftheading">Ingredients:</h2>
+       
+      <div class="Ingredients">
+        <div class="Ingredients1">
+           
+             <li>1 packet of Maggi noodles</li>
+             <li>1 1/2 cups water</li>
+             <li>Maggi masala seasoning (included in the packet)</li>
+             <li>Vegetables (optional, such as chopped onions, carrots, peas, bell peppers, etc.)</li>
+             <li>1 tablespoon cooking oil (optional)</li>
+           </div>
+      </div>
+       
+       
+      
+            <h2 class="bottomleftheading">Instructions:</h2>
+           
+                 <li CLASS="bottomleftmatter">Heat water in a saucepan until it comes to a boil.
+                </li>
+                 <li CLASS="bottomleftmatter">Once the water is boiling, add the Maggi noodles to the saucepan.</li>
+                 <li CLASS="bottomleftmatter">Let the noodles cook for about 2 minutes. Stir occasionally to prevent sticking.</li>
+                 <li CLASS="bottomleftmatter">If you're adding vegetables, you can add them now. Let them cook along with the noodles for another 1-2 minutes.
+                </li>
+                 <li CLASS="bottomleftmatter">Once the noodles are cooked and the vegetables are tender, reduce the heat to low.
+                </li>
+                 <li CLASS="bottomleftmatter"> Add the Maggi masala seasoning packet to the saucepan. Stir well to combine the seasoning with the noodles and vegetables.
+                </li>
+                 <li CLASS="bottomleftmatter">If you prefer, you can also add a tablespoon of cooking oil at this stage for added flavor and to prevent sticking.</li>
+                 <li CLASS="bottomleftmatter">Let the noodles simmer for another minute or so until everything is well combined and heated through.</li>
+                <li CLASS="bottomleftmatter">Turn off the heat and transfer the cooked Maggi noodles to a serving bowl.</li>
+                <li CLASS="bottomleftmatter">Your Maggi noodles are now ready to be enjoyed! You can garnish them with some chopped fresh coriander leaves or grated cheese if you like.</li>
+               
+                 <br>
+                 <h2 class="bottomleftheading">Feel free to adjust the seasoning and add your favorite ingredients to customize the dish to your taste! </h2>
+    </div>
+
+
+
+
+    <div class="bottom" id="bottom">
+        <div class="bottomleft">
+         <H2 > Hello there! I'm <SPAN CLASS="bottomleftheading">SAITEJA</SPAN>, and I'm absolutely thrilled to welcome you to my cooking blog.<BR><BR></H2>
+  
+             <P CLASS="bottomleftmatter"> My culinary journey began watching my grandmother cook, igniting a passion for experimenting with
+                 flavors and techniques. Through my blog, I share not just recipes, but stories, memories, and tips gathered along my culinary
+                  adventures. From quick weeknight dinners to gourmet creations, it's a celebration of the joy cooking brings. Join me in 
+                  exploring new flavors, connecting over meals, and finding solace in the kitchen. Whether you're a seasoned chef or a kitchen 
+                  novice, there's something here for everyone. Let's dive into the wonderful world of cooking together!</P>
+        </div>
+        <div class="bottomright">
+         <h2 class="bottomleftheading">Feedback</h2>
+         <form action="submit_feedback.php" method="post">
+          <label for="name" class="namesfeedback">Name:</label>
+          <input type="texts" id="name" name="name" required>
+      
+          <label for="email"class="namesfeedback" >Email:</label>
+          <input type="email" id="email" name="email" class="email" required>
+      
+          <label for="message"class="namesfeedback">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+      
+          <input type="submits" value="Submit">
+      </form>
+        </div>
+        
+      </div>
+      <div class="bottomlast">
+          <h1 class="follow">Follow us on...</h1>
+      </div>
+</body>
+</html>

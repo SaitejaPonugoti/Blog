@@ -1,0 +1,111 @@
+.left{
+    
+    display:inline-block;
+    flex-direction: row;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 6px;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+}
+
+.head{
+    
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.1px 5px rgb(0, 0, 0);
+    
+    
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+   
+    
+}
+.name{
+    color: black;
+    font-size:xx-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    top: 100%; /* Adjust as needed */
+    left: 90%; /* Adjust as needed */
+    transform: translate(90%, -16%);
+    
+}
+
+.ul{
+    padding-left: 0%;
+    padding-top: 4px;
+    padding-bottom: 5px; 
+}
+.ula,
+.ulb,
+.ulc,
+.Ingredients
+.Instructions{
+    color:rgb(0, 0, 0);
+    margin-right: 10px;
+    text-decoration-line:none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.ula:hover{
+    color: orangered;
+}
+.ulb:hover{
+    color: orangered;
+}
+.ulc:hover{
+    color: orangered;
+   
+}
+
+
+.search-container {
+    
+   
+   
+    width: 100%; /* Adjust width as needed */
+    margin: 15px auto; /* Centers the container */
+    display: flex;
+  }
+
+  .search-container input[type=text] {
+    flex: 1; /* Takes up remaining space */
+    padding: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .search-container input[type=submit] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(83, 77, 70);
+    padding: 8px 20px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35.5px;
+    
+    margin-left: 1px; /* Adds space between input and button */
+  }
+
+  .search-container input[type=submit]:hover {
+    background-color:rgb(255, 255, 255);
+  }
